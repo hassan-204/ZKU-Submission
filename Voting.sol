@@ -23,7 +23,7 @@ contract Ballot {
     Proposal[] public proposals;
 
     uint public startTime;
-    uint endTime;
+    uint public endTime;
 
     constructor(bytes32[] memory proposalNames) {
         //Initialization of time uints
