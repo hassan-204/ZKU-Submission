@@ -55,7 +55,7 @@ contract Ballot {
         voters[voter].weight = 1;
     }
 
-    modifier whenTimeNotEnded{
+    modifier voteEnded{
         //Checks if the time when the modifier is called is less than the endTime. If it isn't, then
         //the voting function may be called. Otherwise, the revert message below is displayed.
         require(block.timestamp<=endTime, "The deadline for voting has already passed");
@@ -84,7 +84,7 @@ contract Ballot {
         }
     }
 
-    function vote(uint proposal) external whenTimeNotEnded {
+    function vote(uint proposal) external voteEnded{
         Voter storage sender = voters[msg.sender];
         require(sender.weight != 0, "Has no right to vote");
         require(!sender.voted, "Already voted.");

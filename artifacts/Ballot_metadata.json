@@ -208,11 +208,11 @@
 	},
 	"sources": {
 		"Voting.sol": {
-			"keccak256": "0xb1dd192e9373096226e330581dbe411223657c7946300b48203b40a9e1a3972b",
+			"keccak256": "0xbc85f04ba696fb06956c399338465bba243817d9df6c8a3c01107894b6c7c034",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7884f5601bbb2d35b77ab21b5b8d0864e9b2488470e30f45337eacf77344cd8f",
-				"dweb:/ipfs/QmXsSq2cLjHom8wUVcKfbkjWBr93hHwoFUYnNmebZVCAf7"
+				"bzz-raw://90079545c1d850c2e7eec21aa2cf93d962cebbc0d752f5c8bfac2947770ab4cc",
+				"dweb:/ipfs/QmVAmkUST3pKBDu1vbebncEKKTo91xUWpfAKchWGNTcX74"
 			]
 		}
 	},
